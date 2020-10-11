@@ -1,24 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@font-face{
+font-family: 'openSans-extraBold';
+src: url('../Fonts/OpenSans-ExtraBold.ttf') format('truetype');
+}
+@font-face{
+font-family: 'openSans Light';
+src: url('../Fonts/OpenSans-Light.ttf') format('truetype');
+    }
+@font-face{
+font-family: 'Montserrat-SemiBold';
+src: url('../Fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+
 body{
 background: #fff;
+font-size: 16px;
+padding: 0;
+margin: 0;
+font-family: sans-serif;
 }
+
+
+.col-list{
+display: flex;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col-left{
+width:270px;
+box-sizing: border-box;
+
+} 
+.col-right{
+width:calc(100%-270px);
+box-sizing: border-box;
+} 
+header .col-list .col-left .brand-logo{
+width: 270px;
+padding: 17px 0 17px 36px;
+position: fixed;
+border:1px solid #f1f2f2;
+left: 0;
+}
+
+
+
 .brand{
+
 display: block;
 
 }
-.logo-stick::after{
-content:'';
+
+.brand-word{
+font-size: 10px;
 display: block;
-width: 8px;
-height: 25px;
-border: 1px solid transparent;
-background:green;
+color:#000;
+letter-spacing: 0.6px;
+text-align: justify;
+text-indent: 80px;
+line-height: 8px;
+font-family: 'openSans Light';
+
 }
-.logo-stick::before{
-content:'';
-display: block;
-width: 8px;
-height: 25px;
-border: 1px solid transparent;
-background:green;
-    }
+
+.brand-logo svg{
+height: 28px;
+
+}
