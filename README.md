@@ -1,2 +1,2 @@
 # hmbank
-clone version of bank
+clone version of bank website
