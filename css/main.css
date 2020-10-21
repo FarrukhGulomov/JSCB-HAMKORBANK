@@ -89,7 +89,7 @@ header .col-right .header-menu .menu-top{
 display: flex;
 justify-content: space-between;
 align-items:center;
-margin-right: 190px;
+margin-right: 210px;
 }
 header .col-right .header-menu .menu-top li{
    
@@ -124,6 +124,7 @@ background:#61bf39;
 display: flex;
 justify-content: center;
 align-items: center;
+cursor: pointer;
 }
 .online-app li a{
 font-size:26px;
@@ -134,11 +135,11 @@ text-transform: uppercase;
 
 .features-menu{
 padding: 30px 45px;
-
+top: 50px;
 background:greenyellow;
 position: absolute;
-height: 250px;
-width: 200px;
+height: 258px;
+width: 220px;
 display: none;
 
 
