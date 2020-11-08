@@ -1,7 +1,21 @@
 $(document).ready(function(){
-    $('.eyes-features').click(function(){
-        $('.features-menu').slideToggle(500);
+
+    $('.eyes-features').on('click',function(){
+        
+
+       
+        $('.features-menu').slideDown(200);
+        
     });
+
+
+  
+ 
+
+
+  
+  
+   
    
 });
     

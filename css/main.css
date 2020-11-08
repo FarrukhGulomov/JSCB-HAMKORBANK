@@ -149,3 +149,15 @@ position: absolute;
 padding: 50px 100px;
 background:green;
 }
+
+.sidebar-left{
+position: fixed;
+
+width: 268px;
+height: calc(100% - 76px);
+background:fff;
+bottom:0;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+                   
+
+}
