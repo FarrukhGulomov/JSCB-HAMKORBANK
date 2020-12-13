@@ -185,11 +185,11 @@ font-family:"Montserrat-Medium",sans-serif;
 }
 #serv-calculator ,
 #btnCalc{
-transition: all .5s linear;
+transition: all .4s ;
 }
 
 #serv-calculator  li{
-margin-top: 15px;
+margin-top: 10px;
 margin-bottom: 0px;
 
 }

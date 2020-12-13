@@ -11,8 +11,9 @@ $(document).ready(function(){
 
   //  create click fees calculator function 
 
-    $('#btnCalc').click(function(){
-   $(this).children('ul').toggle('d-none');
+    $('#btnCalc').click(function(event){
+        event.preventDefault(); 
+   $(this).children('ul').slideToggle('d-none');
         
     });
 
