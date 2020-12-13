@@ -9,7 +9,13 @@ $(document).ready(function(){
     });
 
 
-  
+  //  create click fees calculator function 
+
+    $('#btnCalc').click(function(){
+   console.log($(this).classList);
+    });
+
+
  
 
 
