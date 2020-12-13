@@ -193,3 +193,19 @@ margin-top: 10px;
 margin-bottom: 0px;
 
 }
+.sidebar-left .menu-main{
+padding: 20px 0;
+}
+.sidebar-left .menu-main li{
+padding: 20px ;
+margin-left: 15px;
+text-transform: uppercase;
+
+}
+.sidebar-left .menu-main li a{
+color:#231f20;
+text-decoration: none;
+font:800 12px/12px "Montserrat", sans-serif;
+line-height: 15px;
+display: block;
+}
