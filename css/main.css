@@ -164,10 +164,14 @@ overflow: scroll;
 
 }
 
+.sidebar-left .menu-one li{
+text-align: left;
+padding-left: 20px;
+}
 .sidebar-left .bank-app{
 
 border-bottom: 1px solid #f1f2f2;
-padding: 10px 10px;
+padding: 10px 0;
 
 }
 .sidebar-left .bank-app .fa-globe{
@@ -176,9 +180,8 @@ padding-right: 10px;
 color:#61bf39;
 
 }
-.sidebar-left .bank-app .fa-sort-down{
-padding-left: 10px;
-    }
+
+
 .sidebar-left .bank-app a{
 text-decoration: none;
 font-size: 13px;
@@ -199,7 +202,7 @@ padding: 20px 0;
 }
 .sidebar-left .menu-main li{
 padding: 20px ;
-margin-left: 15px;
+
 text-transform: uppercase;
 
 }
@@ -215,29 +218,35 @@ transition: all .2s ease;
 }
 
 #serv-calculator li a {
+position: relative;
 transition: color .2s ease;
+
 }
 #serv-calculator li a:hover {
 color:#61bf39
 }
-#serv-calculator li::before {
+
+#serv-calculator li a::before {
     position: absolute;
     content: "";
-    top: 0;
-    left: -25px;
     width: 3px;
     height: 12px;
+    top: 0;
+    left: -20px;
+    
     background-color: #61bf39;
     -webkit-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
     transform: skewX(-15deg);
-    opacity: 0;
-    visibility: hidden;
+    
+    
     -webkit-transition: all 300ms ease 0s;
     -o-transition: all 300ms ease 0s;
     transition: all 300ms ease 0s;
     
 }
+
+
 
 
 
