@@ -183,10 +183,9 @@ font-size: 13px;
 color:#231f20;
 font-family:"Montserrat-Medium",sans-serif;
 }
-#serv-calculator ,
-#btnCalc{
-transition: all .4s ;
-}
+
+
+
 
 #serv-calculator  li{
 margin-top: 10px;
@@ -209,3 +208,16 @@ font:800 12px/12px "Montserrat", sans-serif;
 line-height: 15px;
 display: block;
 }
+#serv-calculator{
+transition: all .2s ease;
+}
+
+#serv-calculator li a {
+transition: all .2s ease;
+}
+#serv-calculator li a:hover {
+color:#61bf39
+}
+
+
+
