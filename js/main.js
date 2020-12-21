@@ -17,8 +17,8 @@ $(document).ready(function(){
         
     });
     $('.menu-main li').hover(function(){
-        $(this).append('<div class="menu-fixed d-none"></div>');
-        $(this).children('div').removeClass('d-none');
+        $(this).append('<div class="menu-fixed"></div>');
+        
     });
 
  
