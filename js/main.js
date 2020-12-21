@@ -16,7 +16,10 @@ $(document).ready(function(){
    $(this).children('ul').slideToggle('d-none');
         
     });
-
+    $('.menu-main li').hover(function(){
+        $(this).append('<div class="menu-fixed d-none"></div>');
+        $(this).children('div').removeClass('d-none');
+    });
 
  
 
