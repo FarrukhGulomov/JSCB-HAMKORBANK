@@ -16,11 +16,15 @@ $(document).ready(function(){
    $(this).children('ul').slideToggle('d-none');
         
     });
-    $('.menu-main li').hover(function(){
-        $(this).append('<div class="menu-fixed"></div>');
+    $('.physical').hover(function(){
+
+       
+       
+            $(this).append('<div class="menu-fixed"></div>');
+    
         
     });
-
+   
  
 
 
