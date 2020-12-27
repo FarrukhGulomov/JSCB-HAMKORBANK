@@ -16,14 +16,16 @@ $(document).ready(function(){
    $(this).children('ul').slideToggle('d-none');
         
     });
-    $('.physical ').on('hover',function(){
+    $('.physical ').on('mouseover',function(){
        
-
-   console.log('123')
-    
-    
+        $(this).append(' <div class="menu-fixed"></div>');
+        $(this).off('mouseover',function(){
+        
+        
+        });
         
     });
+   
    
     
  
