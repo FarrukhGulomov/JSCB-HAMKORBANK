@@ -271,7 +271,8 @@ visibility: hidden;
 transition: all 0.5s ease;
 }
 
-.sidebar-left .menu-main li a:hover + .menu-fixed{
+/*.sidebar-left .menu-main li a:hover +*/ 
+.menu-fixed{
 z-index: 100;
 max-width: 350px;
 opacity: 1;
