@@ -20,13 +20,15 @@ $(document).ready(function(){
 
     $('.subMenu ').on('mouseenter',function(){
      
-        if($(this).children().hasClass('menu-fixed')){
+       /* if($(this).children().hasClass('menu-fixed')){
             false;
         } else{
 
        $(this).append('<div class="menu-fixed"></div>'); 
          
-        }
+        }*/
+    
+
     
         
     
