@@ -277,3 +277,11 @@ opacity: 1;
 visibility: visible;
 
 }
+.menu-fixed:hover {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    z-index: 100;
+    max-width: 350px;
+    cursor:pointer;
+}
