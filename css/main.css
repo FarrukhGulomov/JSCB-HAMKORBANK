@@ -275,6 +275,7 @@ z-index: 100;
 max-width: 350px;
 opacity: 1;
 visibility: visible;
+background-color:#5fb03d;
 
 }
 .menu-fixed:hover {

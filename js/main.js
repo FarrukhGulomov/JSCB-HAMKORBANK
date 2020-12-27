@@ -18,7 +18,7 @@ $(document).ready(function(){
     });
     $('.physical ').on('mouseenter',function(){
        
-        const menuFixed = $(this).children('div');
+       
      
 
 
@@ -26,7 +26,7 @@ $(document).ready(function(){
      if($(this).children().hasClass('menu-fixed')){
          false;
      } else{
-        const createDiv = $(this).append(' <div class="menu-fixed"></div>');
+        const createDiv = $(this).append('<div class="menu-fixed"></div>');
       
      }
         
