@@ -202,7 +202,7 @@ margin-bottom: 0px;
 }
 .sidebar-left .menu-main li{
     padding: 20px ;
-    
+    padding-right: 15px;
     text-transform: uppercase;
     
 }
@@ -283,7 +283,7 @@ opacity: 0;
 visibility: hidden;
 transition: all 0.5s ease;
 }
-.sidebar-left .menu-main li :hover + .menu-fixed,
+.sidebar-left .menu-main li:hover ~ .menu-fixed,
 .sidebar-left .menu-main li a:hover + .menu-fixed{
 z-index: 100;
 max-width: 350px;
