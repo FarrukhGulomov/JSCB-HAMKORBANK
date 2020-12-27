@@ -16,9 +16,10 @@ $(document).ready(function(){
    $(this).children('ul').slideToggle('d-none');
         
     });
-    $('.physical a').hover(function(){
+    $('.physical ').on('hover',function(){
+       
 
-    $(this).next().toggle('d-none')    
+   console.log('123')
     
     
         
