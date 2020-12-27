@@ -18,7 +18,7 @@ $(document).ready(function(){
     });
 
 
-    $('.subMenu, .subMenu a').on('mouseenter',function(){
+    $('.subMenu ').on('mouseenter',function(){
        
      if($(this).children().hasClass('menu-fixed')){
          false;
