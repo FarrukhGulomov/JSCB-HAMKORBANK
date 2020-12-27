@@ -16,13 +16,10 @@ $(document).ready(function(){
    $(this).children('ul').slideToggle('d-none');
         
     });
-    $('.physical ').on('mouseenter',function(){
+
+
+    $('#subMenu').on('mouseenter',function(){
        
-       
-     
-
-
-
      if($(this).children().hasClass('menu-fixed')){
          false;
      } else{
