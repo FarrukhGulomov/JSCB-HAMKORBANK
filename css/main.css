@@ -198,20 +198,33 @@ margin-bottom: 0px;
 
 }
 .sidebar-left .menu-main{
-padding: 20px 0;
+    padding: 20px 0;
 }
 .sidebar-left .menu-main li{
-padding: 20px ;
+    padding: 20px ;
+    
+    text-transform: uppercase;
+    
+}
 
-text-transform: uppercase;
+
+.sidebar-left .menu-main li:hover {
+background-color: #026941;
 
 }
+.sidebar-left .menu-main li:hover a{
+    color:#ffffff;
+    
+    }
 .sidebar-left .menu-main li a{
 color:#231f20;
 text-decoration: none;
 font:800 12px/12px "Montserrat", sans-serif;
 line-height: 15px;
 display: block;
+
+transition: all .5s;
+cursor:pointer;
 }
 #serv-calculator{
 transition: all .2s ease;
@@ -275,9 +288,10 @@ z-index: 100;
 max-width: 350px;
 opacity: 1;
 visibility: visible;
-background-color:#5fb03d;
+
 
 }
+
 .menu-fixed:hover {
     opacity: 1;
     visibility: visible;
