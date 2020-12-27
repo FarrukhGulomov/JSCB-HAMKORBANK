@@ -237,10 +237,11 @@ margin-bottom: 0px;
     padding: 20px 0;
 }
 .sidebar-left .menu-main li{
-    padding: 20px ;
+    position: relative;
+     padding: 20px ;
     padding-right: 15px;
     text-transform: uppercase;
-    transition: all 0.5s ease;
+    
 }
 
 
@@ -250,7 +251,7 @@ cursor:pointer;
 }
 .sidebar-left .menu-main li:hover a{
     color:#ffffff;
-    
+   
     }
 .sidebar-left .menu-main li a{
 color:#231f20;
@@ -259,14 +260,11 @@ font:800 12px/12px "Montserrat", sans-serif;
 line-height: 15px;
 display: block;
 
-transition: all .5s;
+transition: all .5s ease 0s;
 cursor:pointer;
 }
-.sidebar-left .menu-main li{
-    position: relative;
-    
-}
-.menu-fixed{
+
+.sidebar-left .menu-main li a + .menu-fixed{
     position: fixed;
     width: 100%;
 max-width: 0px;
@@ -279,7 +277,7 @@ overflow: auto;
 z-index: -100;
 opacity: 0;
 visibility: hidden;
-transition: all .5s ease;
+transition: all .5s ease 0s;
 }
 .sidebar-left .menu-main li:hover a + .menu-fixed {
     z-index: 100;

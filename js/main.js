@@ -19,14 +19,17 @@ $(document).ready(function(){
 
 
     $('.subMenu ').on('mouseenter',function(){
-     setInterval(() => {
+     
         if($(this).children().hasClass('menu-fixed')){
             false;
         } else{
-           $(this).append('<div class="menu-fixed"></div>');
+
+       $(this).append('<div class="menu-fixed"></div>'); 
          
         }
-     }),1000;
+    
+        
+    
      
         
     });
