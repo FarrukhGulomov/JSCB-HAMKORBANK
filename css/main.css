@@ -197,6 +197,42 @@ margin-top: 10px;
 margin-bottom: 0px;
 
 }
+#serv-calculator{
+    transition: all .2s ease;
+}
+
+#serv-calculator li a {
+    position: relative;
+    transition: color .2s ease;
+    
+}
+#serv-calculator li a:hover {
+    color:#61bf39
+}
+
+#serv-calculator li a::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 12px;
+    top: 0;
+    left: -20px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #61bf39;
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+    -webkit-transition: all 300ms ease 0s;
+    -o-transition: all 300ms ease 0s;
+    transition: all 300ms ease 0s;
+    
+}
+
+#serv-calculator li a:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
 .sidebar-left .menu-main{
     padding: 20px 0;
 }
@@ -226,49 +262,13 @@ display: block;
 transition: all .5s;
 cursor:pointer;
 }
-#serv-calculator{
-transition: all .2s ease;
-}
-
-#serv-calculator li a {
-position: relative;
-transition: color .2s ease;
-
-}
-#serv-calculator li a:hover {
-color:#61bf39
-}
-
-#serv-calculator li a::before {
-    position: absolute;
-    content: "";
-    width: 3px;
-    height: 12px;
-    top: 0;
-    left: -20px;
-    opacity: 0;
-    visibility: hidden;
-    background-color: #61bf39;
-    -webkit-transform: skewX(-15deg);
-    -ms-transform: skewX(-15deg);
-    transform: skewX(-15deg);
-    -webkit-transition: all 300ms ease 0s;
-    -o-transition: all 300ms ease 0s;
-    transition: all 300ms ease 0s;
+.sidebar-left .menu-main li{
+    position: relative;
     
 }
-
-#serv-calculator li a:hover::before{
-opacity: 1;
-visibility: visible;
-}
-.sidebar-left .menu-main li{
-position: relative;
-
-}
 .menu-fixed{
-position: fixed;
-width: 100%;
+    position: fixed;
+    width: 100%;
 max-width: 0px;
 top: 0;
 height: 100%;
@@ -279,14 +279,14 @@ overflow: auto;
 z-index: -100;
 opacity: 0;
 visibility: hidden;
-transition: all 0.5s ease;
+transition: all .5s ease;
 }
 .sidebar-left .menu-main li:hover a + .menu-fixed {
-z-index: 100;
-max-width: 350px;
-opacity: 1;
-visibility: visible;
-
+    z-index: 100;
+    max-width: 350px;
+    opacity: 1;
+    visibility: visible;
+    
 }
 
 .menu-fixed:hover {
