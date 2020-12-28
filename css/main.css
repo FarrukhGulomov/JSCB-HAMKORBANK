@@ -301,14 +301,14 @@ transition: all .5s ease 0s;
 
 .menu-fixed ul {
 list-style: none;
-padding: 10px 0;
+padding: 14px 0;
 
 
 
 }
 .menu-fixed ul li a{
 
-padding: 14px 0;
+padding: 10px 0;
 padding-left: 10px;
 font: 700 15px/30px "Montserrat-Medium", sans-serif;
 color:#ffffff;
