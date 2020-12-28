@@ -295,3 +295,15 @@ transition: all .5s ease 0s;
     max-width: 350px;
     cursor:pointer;
 }
+
+
+/*  SUBMENU  STYLES */
+
+.menu-fixed ul {
+list-style: none;
+padding: 25px 0;
+padding-left: 15px;
+}
+.menu-fixed ul li a{
+padding: 10px 0;
+}
