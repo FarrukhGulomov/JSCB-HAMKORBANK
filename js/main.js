@@ -2,11 +2,23 @@ $(document).ready(function(){
 
 
 
-    $('.eyes-features').on('click',function(){
+    $('.header-menu').click(function(){
+       
+        if ($('.features-menu').slideUp(200)) {
+            true;
+        }
+       });
+
+    $('.eyes-features').on('click',function(event){
         
-        $('.features-menu').slideToggle(200);
-        
-    });
+       if ($('.features-menu').slideDown(200)) {
+           false;
+       }
+       
+       
+    }); 
+
+    
 
 
   //  create click fees calculator function 
