@@ -329,6 +329,8 @@ padding-top: 20px;
    background-color: #ffffff!important;
    color: #026941;
    transition: all .5 ease 0s;
+   border-color: transparent;
+   
  }
 
 .menu-fixed ul li:hover a   {
