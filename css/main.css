@@ -315,16 +315,23 @@ padding-top: 20px;
 
 
 }
-.menu-fixed ul li a:hover  {
-color:red;
-
-}
 .menu-fixed ul li a{
+    
+    padding: 12px 0;
+    padding-left: 10px;
+    font: 700 15px/30px "Montserrat-bold", sans-serif;
+    color:#ffffff;
+    display: block;
+    transition: all .5 ease 0s;
+}
 
-padding: 12px 0;
-padding-left: 10px;
-font: 700 15px/30px "Montserrat-bold", sans-serif;
-color:#ffffff;
-display: block;
+.menu-fixed ul li:hover    {
+   background-color: #ffffff!important;
+   color: #026941;
+   transition: all .5 ease 0s;
+ }
+
+.menu-fixed ul li:hover a   {
+    color:#026941!important;
 
 }
