@@ -14,6 +14,11 @@ src: url('../Fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
 font-family: 'Montserrat-SemiBold';
 src: url('../Fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
 }
+
+@font-face {
+    font-family:'Montserrat-bold';
+    src: url('../Fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+}
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 
@@ -148,7 +153,7 @@ box-shadow:  0px 4px 2px   rgba(0, 0, 0, .1);
 
 .app-window{
 position: absolute;
-padding: 50px 100px;
+
 background:green;
 }
 
@@ -310,11 +315,15 @@ padding-top: 20px;
 
 
 }
+.menu-fixed ul li a:hover  {
+color:red;
+
+}
 .menu-fixed ul li a{
 
 padding: 12px 0;
 padding-left: 10px;
-font: 700 15px/30px "Montserrat-Medium", sans-serif;
+font: 700 15px/30px "Montserrat-bold", sans-serif;
 color:#ffffff;
 display: block;
 
