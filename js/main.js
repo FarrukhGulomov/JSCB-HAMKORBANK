@@ -1,22 +1,21 @@
 $(document).ready(function(){
 
+var featuresMenu = $('.features-menu');
 
+    
 
-    $('.header-menu').click(function(){
-       
-        if ($('.features-menu').slideUp(200)) {
-            true;
-        }
-       });
-
-    $('.eyes-features').on('click',function(event){
+    $('.eyes-features').on('click',function(){
         
-       if ($('.features-menu').slideDown(200)) {
-           false;
-       }
        
-       
-    }); 
+        featuresMenu.slideDown(200) ;
+        
+    
+    });
+
+    
+    $(window).click(function(){
+        featuresMenu.addClass('d-none');
+    });
 
     
 
