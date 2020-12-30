@@ -4,18 +4,16 @@ var featuresMenu = $('.features-menu');
 
     
 
-    $('.eyes-features').on('click',function(){
+    $('.eyes-features').on('click',function(event){
         
        
         featuresMenu.slideDown(200) ;
-        
+        event.target;
     
     });
 
     
-    $(window).click(function(){
-        featuresMenu.addClass('d-none');
-    });
+    
 
     
 
