@@ -2,20 +2,21 @@ $(document).ready(function(){
 
 var featuresMenu = $('.features-menu');
 
+var x = false;
     
-    var x = true;
     $('.eyes-features').on('click',function(){
+        x = true;
         
+       if (x==true) {featuresMenu.slideToggle(200) ; }
        
-       if (x) {featuresMenu.slideToggle(200) ; }
-        
-    
+       
     });
     
     $( window ).click(function() {
-       if(!x) {featuresMenu.slideUp(200) ;}
+        
+       if(x==false) {featuresMenu.slideUp(200) ;}
            
-    
+       x = false;
         });
         
     
