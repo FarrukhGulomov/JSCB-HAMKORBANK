@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    //  EYE FEATURES JS
 var featuresMenu = $('.features-menu');
 
 var x = false;
@@ -8,8 +9,6 @@ var x = false;
         x = true;
         
        if (x==true) {featuresMenu.slideToggle(200) ; }
-       
-       
     });
     
     $( window ).click(function() {
