@@ -16,13 +16,9 @@ var x = false;
        if(x==false) {featuresMenu.slideUp(200) ;}
            
        x = false;
+          
         });
         
-    
-    
-
-    
-
 
   //  create click fees calculator function 
 
