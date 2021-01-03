@@ -4,11 +4,11 @@ var featuresMenu = $('.features-menu');
 
     
 
-    $('.eyes-features').on('click',function(event){
+    $('.eyes-features').on('click',function(){
         
        
-        featuresMenu.slideDown(200) ;
-        event.target;
+        featuresMenu.slideToggle(200) ;
+        
     
     });
 
