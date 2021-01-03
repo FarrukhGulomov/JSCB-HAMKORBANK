@@ -8,7 +8,7 @@ var x = false;
     $('.eyes-features').on('click',function(){
         x = true;
         
-       if (x==true) {featuresMenu.slideToggle(200) ; }
+       if (x==true) {featuresMenu.slideDown(200) ; }
     });
     
     $( window ).click(function() {
