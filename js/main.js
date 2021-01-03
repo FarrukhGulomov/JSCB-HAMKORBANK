@@ -3,16 +3,21 @@ $(document).ready(function(){
 var featuresMenu = $('.features-menu');
 
     
-
+    var x = true;
     $('.eyes-features').on('click',function(){
         
        
-        featuresMenu.slideToggle(200) ;
+       if (x) {featuresMenu.slideToggle(200) ; }
         
     
     });
     
-        jQuery( "body" ).trigger( e );
+    $( window ).click(function() {
+       if(!x) {featuresMenu.slideUp(200) ;}
+           
+    
+        });
+        
     
     
 
