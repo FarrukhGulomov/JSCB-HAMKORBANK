@@ -11,7 +11,8 @@ var featuresMenu = $('.features-menu');
         
     
     });
-
+    
+        jQuery( "body" ).trigger( e );
     
     
 
