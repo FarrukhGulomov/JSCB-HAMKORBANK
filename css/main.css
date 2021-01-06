@@ -344,22 +344,28 @@ padding-top: 20px;
     
    
     #main__lang .langs-text  {
-   
-    max-width: 50px;
     
+    max-width: 200px;
+    background-color:#ffffff;
+    box-shadow: 0 0 2px  rgba(0, 0, 0, .1);
 
     
     }
-    #main__lang .langs-text a{
-    font: 600 11px/25px "Montserrat-SemiBold", sans-serif;
+
+   
+    #main__lang .langs-text a span{
+    font: 600 11px/25px "Montserrat", sans-serif;
     display: inline-block;
+    padding-top: 0.5px;
+    color:#231f20;
 
     }
 
     #main__lang .langs-text a img{
-       max-width: 15px;
+    max-width: 15px;
+    vertical-align: middle;
      
        
-        }
+    }
     
     
