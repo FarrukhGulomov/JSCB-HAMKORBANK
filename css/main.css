@@ -106,7 +106,7 @@ list-style: none;
 header .col-right .header-menu .menu-top:nth-child(1){
 padding-left: 15px;
 }
-header .col-right .header-menu .menu-top li a{
+header .col-right .header-menu .menu-top li .navbar-link{
 display: block;
 font-size: 11px;
 font-family: 'Montserrat-SemiBold',Montserrat;
@@ -338,18 +338,28 @@ padding-top: 20px;
     color:#026941!important;
 
 }
-#main__lang .langs-text  {
-width: 100%;
-height: 100%;
-min-width: 40px;
 
 
-}
-#main__lang .langs-text a{
+    /* Change main language css */ 
+    
+   
+    #main__lang .langs-text  {
+   
+    max-width: 50px;
+    
 
-}
-#main__lang .langs-text img{
-    display: inline-block;
+    
     }
-/* Change main language css */ 
+    #main__lang .langs-text a{
+    font: 600 11px/25px "Montserrat-SemiBold", sans-serif;
+    display: inline-block;
 
+    }
+
+    #main__lang .langs-text a img{
+       max-width: 15px;
+     
+       
+        }
+    
+    
