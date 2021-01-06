@@ -26,6 +26,7 @@ src: url('../Fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+
 }
 body{
 background: #fff;
