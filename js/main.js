@@ -10,7 +10,7 @@ var x = false;
         
        if (x==true) {featuresMenu.slideDown(200) ; }
     });
-    
+  
     $( window ).click(function() {
         
        if(x==false) {featuresMenu.slideUp(200) ;}
@@ -42,7 +42,12 @@ var x = false;
     });
    
    
-    
+    // Change main language 
+
+    $('#lang ,#main__lang').hover(function(){
+        $('ul').removeClass('d-none');
+
+    });
  
 
 
