@@ -52,18 +52,19 @@ var x = false;
         
         $('.lang_Foreign').click(function(event){
             event.preventDefault;
+
+                var first_Main_Lang = $('#lang').text(),
+                lang_Text = ['UZ','RU','EN'],
+                lang_img = ['src="./img/uz.svg"','src="./img/ru.svg"','src="./img/gb.svg"'],
+
+                langForeign = $(this).text(),
+                mainLang = $('#lang').text(langForeign);
                 
-
-                var lang_Text = ['UZ','RU','EN'],
-                lang_img = ['src="./img/uz.svg"','src="./img/ru.svg"','src="./img/gb.svg"'];
-
-                var langForeign = $(this).text();
-                var mainLang = $('#lang').text(langForeign);
                 
                
                 
 
-                console.log(mainLang);
+                console.log(first_Main_Lang);
         
             
 
