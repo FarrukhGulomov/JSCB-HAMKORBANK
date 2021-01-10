@@ -50,9 +50,24 @@ var x = false;
             
         },300);
         
-        $('.lang_Foreign').on('click',function(){
-            const langForeign = $('.lang_Foreign').text();
-            console.log(langForeign);
+        $('.lang_Foreign').click(function(event){
+            event.preventDefault;
+                
+
+                var lang_Text = ['UZ','RU','EN'],
+                lang_img = ['src="./img/uz.svg"','src="./img/ru.svg"','src="./img/gb.svg"'];
+
+                var langForeign = $(this).text();
+                var mainLang = $('#lang').text(langForeign);
+                
+               if ()
+                
+
+                console.log(mainLang);
+        
+            
+
+            
         });
 
     });
