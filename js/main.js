@@ -60,7 +60,7 @@ var x = false;
                 var langForeign = $(this).text();
                 var mainLang = $('#lang').text(langForeign);
                 
-               if ()
+               
                 
 
                 console.log(mainLang);
