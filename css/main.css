@@ -343,27 +343,31 @@ padding-top: 20px;
     /* Change main language css */ 
     #main__Lang{
     position: relative;
+      
     }
    
    
-    #lang_Box   {
+   #main__Lang .langs,
+   #main__Lang a:hover + #lang_Box  {
     position: absolute;
-    
-    background-color:#ffffff;
-    box-shadow: 0 0 2px  rgba(0, 0, 0, .1);
-    
-
+    min-width: 50px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, .1);
+    left: -10px;
+    top: 25px;
+    padding: 5px;
+    display: block!important;
+    transition: all .5 ease;
     }
    
-   
-    
-
-    #main__lang .langs-text a img{
+    #main__Lang #lang_Box a {
+        font-size: 11px;
+        color: #231f20
+    }
+     #main__Lang #lang_Box a img{
     max-width: 15px;
-   
-   
-     
-       
+ 
     }
+    
     
     

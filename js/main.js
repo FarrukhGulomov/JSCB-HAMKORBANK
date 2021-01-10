@@ -45,7 +45,10 @@ var x = false;
     // Change main language 
 
     $('#lang ,#main__lang').hover(function(){
-        $('ul').removeClass('d-none');
+        setTimeout(function(){
+            //$('#lang_Box').toggleClass('langs');
+        });
+        
 
     });
  
