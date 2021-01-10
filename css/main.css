@@ -357,19 +357,23 @@ padding-top: 20px;
     padding: 5px;
     
     z-index: 100;
-    transition: all .5s ease;
+    
     display: block!important;
-    transform: display 5s ease 0s;
+    transition: display .5s ease 0s;
     }
    
     #main__Lang #lang_Box a {
         font-size: 11px;
-        color: #231f20
+        color: #231f20;
+        transition: color .5s ease;
+          
     }
      #main__Lang #lang_Box a img{
     max-width: 15px;
  
     }
-    
+    #lang_Box li a:hover{
+    color:#61bf39!important;
+    }
     
     
