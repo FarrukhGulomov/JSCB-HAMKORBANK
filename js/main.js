@@ -46,11 +46,18 @@ var x = false;
 
     $('#lang ,#main__lang').hover(function(){
         setTimeout(function(){
-            //$('#lang_Box').toggleClass('langs');
-        });
+            $('#lang_Box').toggleClass('langs');
+            
+        },300);
         
+        $('.lang_Foreign').on('click',function(){
+            const langForeign = $('.lang_Foreign').text();
+            console.log(langForeign);
+        });
 
     });
+
+    
  
 
 

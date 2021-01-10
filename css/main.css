@@ -343,12 +343,11 @@ padding-top: 20px;
     /* Change main language css */ 
     #main__Lang{
     position: relative;
-      
+     z-index: 1; 
     }
    
    
-   #main__Lang .langs,
-   #main__Lang a:hover + #lang_Box  {
+   #main__Lang .langs, #lang_Box:hover  {
     position: absolute;
     min-width: 50px;
     background-color: #ffffff;
@@ -356,8 +355,11 @@ padding-top: 20px;
     left: -10px;
     top: 25px;
     padding: 5px;
+    
+    z-index: 100;
+    transition: all .5s ease;
     display: block!important;
-    transition: all .5 ease;
+    transform: display 5s ease 0s;
     }
    
     #main__Lang #lang_Box a {
