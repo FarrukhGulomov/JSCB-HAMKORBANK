@@ -61,12 +61,12 @@ width: calc(100% - 270px);
 
 
 } 
-header .col-list .col-left .brand-logo{
-width:268px;
-padding: 17px 0 17px 28px;
-border:1px solid #f1f2f2;
-position: fixed;
-left: 0;
+header .col-list .col-left .brand-logo {
+    width: 268px;
+    padding: 15px 17px 28px;
+    border: 1px solid #f1f2f2;
+    position: fixed;
+    left: 0;
 }
 
 
@@ -341,9 +341,7 @@ padding-top: 20px;
 
 
     /* Change main language css */ 
-    #main__lang {
-    
-    }
+  
    
    
     #main__lang .langs-text  {
