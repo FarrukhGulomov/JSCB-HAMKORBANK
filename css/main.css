@@ -341,12 +341,14 @@ padding-top: 20px;
 
 
     /* Change main language css */ 
-  
+    #main__Lang{
+    position: relative;
+    }
    
    
-    #main__lang .langs-text  {
+    #lang_Box   {
     position: absolute;
-   
+    
     background-color:#ffffff;
     box-shadow: 0 0 2px  rgba(0, 0, 0, .1);
     
