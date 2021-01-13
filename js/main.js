@@ -47,6 +47,7 @@ var x = false;
     $('#lang ,#main__lang').hover(function(){
         setTimeout(function(){
             $('#lang_Box').toggleClass('langs');
+            $('#lang_Box').toggleClass('d-none');
             
         },300);
         
